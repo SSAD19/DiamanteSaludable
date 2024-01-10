@@ -1,0 +1,231 @@
+.noDesktop {
+    display: none;
+}
+html {
+    font-size: 14px;
+    width: auto;
+    margin: 5px;
+}
+.displayColumn {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3.5rem;
+    gap: 3rem;
+    align-self: center;
+    flex-wrap:nowrap;
+}
+.displayRow {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 1.5rem 1.625rem;
+    gap: 2rem;
+    flex-wrap:nowrap;
+}
+button {
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    noMobile {
+        display:none;
+    }
+
+}
+@media screen and  (min-width: 769px) {
+    .noDesktop {
+        display: none;
+    }
+}
+
+/* CREADOS POR LARA  */
+/* GENERALES Y _LAYOUT*/
+body {
+    width:auto;
+    font-family: 'Inter';
+    align-content: center; 
+    align-self:flex-start; 
+}
+header {
+    width: 100%;
+    max-width: 14520px;
+    min-width: 768px;
+    align-self: center;
+    display: inline-flex;
+    padding: 1.5rem 3rem;
+    gap: 6.69rem;
+    align-items: center;
+    flex-wrap:nowrap;
+}
+.menu {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.limenu {
+    gap: 0.625rem;
+    font-weight: 400;
+    list-style: none;
+    color: #323533 !important;
+    font-size: 24px;
+    text-align: center;
+    text-decoration-line: none;
+    transition: text-decoration 0.6s ease;
+    padding: 1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   
+}
+    .limenu:hover,
+    .limenu:active {
+        color: #415B2C !important;
+        text-decoration-line: underline !important;
+        
+    }
+.ulmenu {
+    display: inline-flex;
+    list-style: none;
+    gap:0px;
+
+}
+
+footer {
+    background: #08F1DE;
+    align-items: center;
+    padding: 0.7% 1.7%;
+    gap: 2rem;
+    color: #323533;
+    font-weight: 600;
+}   
+footer, 
+.footerFont{
+        color: #323533 !important;
+        font-weight: 600;
+        align-self: flex-start;
+        text-decoration-line:none; 
+    }
+.redes {
+    gap: 6.65%;
+    align-self: stretch;
+    align-items:center;
+}
+
+a {
+    font-size: 1.25rem;
+    color: #415B2C;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--Paleta-de-color-Color-0005, #323533);
+    text-align: center;
+    align-self: stretch;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*  VISTAS   */
+/*  index  */
+.mainButton {
+    border-radius: 20px;
+    background-color: #415B2C;
+
+    color: #FFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.61% 3.9%;
+    gap: 0.7%;
+    border-radius: 10px;
+    background: var(--Paleta-de-color-Color-0003, #CC9A68);
+    width: 91.61%;
+    align-self: stretch;
+}
+
+
+input {
+    border: none;
+    color: var(--Grises-gris-003, #CFCFCF);
+    font-size:20px;
+    align-self:flex-start;
+    padding:0px;
+    margin:0px;
+}
+    input:active {
+        color: #323533;
+        border:none
+    }
+
+.carouselExampleIndicators {
+    flex: 1 0 0;
+    align-self: stretch;
+    width:100%; 
+    height:10.83%;
+}
+
+.searchContainer {
+    width: 100%;
+    margin-top:1.2%;
+    padding: 0.6% 3.80%;
+    gap: 1.1%;
+    align-content: center;
+}
+.search_bar {
+    width: 88%;
+    border-radius: 1.875rem;
+    border: 1px solid var(--Grises-gris-003, #CFCFCF);
+    background: var(--Fondo-0001, #FFF);
+    gap: 68%;
+    flex: 1 0 0;
+    padding: 0.2% 0.8%;
+}
+.searchButton {
+    width: 70px !important;
+    height: 40px !important;
+    align-content: center;
+    border-radius: 100px;
+    flex-shrink: 0
+}
+
+ 
+.sec_Categorias {
+    padding: 32px 56px;
+    gap: 48px;
+    align-items: center;
+}
+
+.categorias {
+    width:95%;
+    gap: 41px 24px;
+    flex-wrap: wrap;
+  
+}
+.classButton {
+    border-radius: 20px;
+    background-attachment: fixed;
+    flex-shrink: 0;
+}
+
+/*Productos destacados*/

@@ -1,0 +1,197 @@
+﻿@page 
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section Style {
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+}
+
+<div id="carouselExampleIndicators" class="carousel slide">
+
+    <div class="carousel-indicators">
+
+        <button class="active carouselDOT " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+        <button class="carouselDOT" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button class="carouselDOT" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/assets/slide_home.svg" class="d-block w-100" />
+
+        </div>
+        <div class="carousel-item">
+            <img src="~/assets/slide_home.svg" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+            <img src="~/assets/slide_home.svg" class="d-block w-100" />
+        </div>
+    </div>
+  
+</div>
+ 
+<div class="displayRow searchContainer">
+
+    <nav class="displayRow search_bar">
+        <input value="¿Qué estás pensando?" />
+        <img src="~/assets/svg/fi_x.svg" />
+    </nav>
+
+    <button class="mainButton searchButton"> <img src="~/assets/svg/u_search.svg" /> </button>
+
+    <script>
+        function buscar() {
+            // Lógica para manejar la búsqueda, puedes llamar a una función de Blazor si es necesario.
+        }
+    </script>
+     
+</div>
+
+<section class="displayColumn sec_Categorias">
+    <h1> Categorías </h1>
+    <div class="displayRow categorias">
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardavena.svg" />  </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardcereales.svg" /> </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardchocolate.svg" />  </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardcongelado.svg" />  </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/carddl.svg" />  </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardfrutoseco.svg" /> </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardgalletas.svg" />  </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/cardmermeladas.svg" />  </button>
+        <button class="classButton"> <img src="~/assets/cardscategoria/carddl.svg" />  </button>
+        <bu tton class="classButton"> <img src="~/assets/cardscategoria/cardmermeladas.svg" />  </bu>
+    </div>
+
+    <a asp-area="" asp-page="/Categorias"> VER MÁS CATEGORIAS </a>
+
+</section>
+
+<section class="displayColumn ProdDestacados ">
+    <!-- ACA HAY QUE AGREGAR POR TAREJTA UN MODAL PARA INDICAR CANTIDAD  -->
+
+    <h1>Productos destacados </h1>
+
+    <div class="displayRow">
+        <div class="cardOferta displayColumn">
+           <img src="~/assets/web/wepi/producto.webp" />
+            <a  asp-area="" asp-page="/Productos">
+                <h4>@@tituloProducto</h4>
+            </a>
+            
+            <h4>@@gramosProducto </h4>
+
+            <h3> @@PRECIO$ </h3>
+
+            <!-- este botón -->
+            <button>
+                <img src="~/assets/svg/white-bag.svg" />
+                AGREGAR
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <img src="~/assets/svg/u_angle-down.svg" />
+            </button>
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+               
+
+    <a  asp-area="" asp-page="/Productos"> VER MÁS PRODÚCTOS </a>
+
+   
+
+    
+
+</section>
+
+<section class="maps displayColumn">
+    <h1> Locales</h1>
+    <!-- mobile
+    <iframe class="mapsMobile noDesktop"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2444433302185!2d-58.33279682486026!3d-34.69901400267049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333d6d13d9407%3A0x370ddb285642a535!2sDiamante%20natural!5e0!3m2!1ses-419!2sar!4v1701999370067!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe> -->
+    <iframe class="mapsDesktop noMobile"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2444433302185!2d-58.33279682486026!3d-34.69901400267049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333d6d13d9407%3A0x370ddb285642a535!2sDiamante%20natural!5e0!3m2!1ses-419!2sar!4v1701999234136!5m2!1ses-419!2sar" width="1104" height="673" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+<section class="noticias displayColumn">
+    <h1> Noticias  </h1>
+
+    <div class="noticias">
+
+    <img src=""  width="320px" heightt="480px" />
+
+    <article class="noticias">
+        <h3> @@noticia.titulo</h3>
+        <p> @@noticia.breve </p>
+
+        <button>
+                <a asp-area="" asp-page="/NoticiasArticulo" asp-route-id="noticia.Id">LEER</a>
+            </button>
+    </article>
+    </div>
+
+    <div class="noticias">
+
+    <img src="" width="320px" heightt="480px" />
+
+    <article class="noticias">
+        <h3> @@noticia.titulo</h3>
+        <p> @@noticia.breve </p>
+            <button>
+                <a asp-area="" asp-page="/NoticiasArticulo" asp-route-id="noticia.Id">LEER</a>
+            </button>
+    </article>
+    </div>
+
+    <a class="nav-link text-dark" asp-area="" asp-page="/Noticias"> VER MÁS NOTICIAS </a>
+
+</section>
+
+<section class="displayRow beneficios">
+    <div class="displayRow">
+        <svg> estrellita </svg>
+
+        <div class="displayColumn">
+            <h4>  Garantizado </h4>
+
+            <p>
+                Lörem ipsum olig pibelt. Opp. Hubelt poren. Kävose mikroblogg. Trande poskapet om än nyrade, ekopol.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="displayRow">
+        <svg> WP</svg> <!-- AGREGAR ELINK AL WHATSAPP NUEVA PÁGINA -->
+
+        <div class="displayColumn">
+            <h4> Pedidos por whatsapp</h4>
+
+            <p>
+                Lörem ipsum olig pibelt. Opp. Hubelt poren. Kävose mikroblogg. Trande poskapet om än nyrade, ekopol.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="displayColumn novedades">
+    <h2>Obtén  Novedades </h2>
+    <div class="displayRow">
+        <input type="email"  value="example@mail.com" />
+        <button> SUSCRIBIR </button>
+    </div>
+</div>
+
+

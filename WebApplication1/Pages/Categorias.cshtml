@@ -1,0 +1,198 @@
+﻿@page 
+@model WebApplication1.Pages.CategegoriasModel
+@{
+
+    ViewData["Title"] = "Home page";
+}
+
+@section Style {
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+}
+
+<div class="displayRow searchContainer">
+
+    <nav class="displayRow search_bar">
+        <input value="¿Qué estás pensando?" />
+        <img src="~/assets/svg/fi_x.svg" />
+    </nav>
+
+    <button class="mainButton searchButton"> <img src="~/assets/svg/u_search.svg" /> </button>
+
+    <script>
+        function buscar() {
+            // Lógica para manejar la búsqueda, puedes llamar a una función de Blazor si es necesario.
+        }
+    </script>
+
+</div>
+
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-area="" asp-page="/Index">Home</a></li>
+        <a class="breadcrumb-item active" asp-area="" asp-page="/Categorias"><b>Categorías</b></a>
+    </ol>
+</nav>
+
+
+<section class="carousel">
+    <div id="carouselExample" class="carousel slide">
+
+        <div class="carousel-inner categorias">
+
+            <div class="carousel-item active">
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardavena.svg" />  </button>
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardcereales.svg" /> </button>
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardchocolate.svg" />  </button>
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardcongelado.svg" />  </button>
+            </div>
+
+            <div class="carousel-item">
+
+                <button class="classButton"> <img src="~/assets/cardscategoria/carddl.svg" />  </button>
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardfrutoseco.svg" /> </button>
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardgalletas.svg" />  </button>
+                <button class="classButton"> <img src="~/assets/cardscategoria/cardmermeladas.svg" />  </button>
+
+            </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+<section class="CategoriaProductos displayRow">
+    <ul>
+        <li></li>
+    </ul>
+
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4> 
+
+        <h3> @@PRECIO$ </h3>
+
+        <button>
+            <img src="~/assets/svg/white-bag.svg" />
+            AGREGAR
+        </button>
+
+    </div>
+
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4>
+
+        <h3> @@PRECIO$ </h3>
+ 
+
+    </div>
+
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4>
+
+        <h3> @@PRECIO$ </h3>
+
+        <button>
+            <img src="~/assets/svg/white-bag.svg" />
+            AGREGAR
+        </button>
+
+    </div>
+
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4>
+
+        <h3> @@PRECIO$ </h3>
+
+        <button>
+            <img src="~/assets/svg/white-bag.svg" />
+            AGREGAR
+        </button>
+
+    </div>
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4>
+
+        <h3> @@PRECIO$ </h3>
+
+        <button>
+            <img src="~/assets/svg/white-bag.svg" />
+            AGREGAR
+        </button>
+
+    </div>
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4>
+
+        <h3> @@PRECIO$ </h3>
+
+        <button>
+            <img src="~/assets/svg/white-bag.svg" />
+            AGREGAR
+        </button>
+
+    </div>
+    <div class="cardOferta displayColumn">
+        <img src="" />
+
+        <h4>@@tituloProducto</h4>
+        <h4>@@gramosProducto </h4>
+
+        <h3> @@PRECIO$ </h3>
+
+        <button>
+            <img src="~/assets/svg/white-bag.svg" />
+            AGREGAR
+        </button>
+
+    </div>
+
+</section>
+
+ <nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
