@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Remove="Pages\Productos.cshtml" />
+    <Content Remove="wwwroot\css\estilo.scss" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,15 +17,17 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\Productos.cshtml" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\estilo.scss" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Pages\Productos.cshtml" />
+    <None Include="wwwroot\css\estilo.scss" />
     <None Include="wwwroot\css\Index.css" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
   </ItemGroup>
 
   <ItemGroup>

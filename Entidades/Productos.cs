@@ -14,7 +14,11 @@ namespace Entidades
         public String Categoria { get; set; }
         public double StockActual { get; set; }
         public int UnidadGranel { get; set; } //esto es lo que me va a definir 
-        public bool Baja { get; set; }
+
+        // se trae desde ProductosPrecios 
+
+    
+        
 
         public Productos()
         {

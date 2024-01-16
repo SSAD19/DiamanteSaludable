@@ -70,3 +70,4 @@ C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\bi
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\bin\Debug\net8.0\Negocio.pdb
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CopyComplete
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

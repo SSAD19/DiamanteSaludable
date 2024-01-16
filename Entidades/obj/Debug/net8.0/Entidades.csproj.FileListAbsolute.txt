@@ -9,3 +9,4 @@ C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Entidades\obj\Debu
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Entidades\obj\Debug\net8.0\refint\Entidades.dll
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Entidades\obj\Debug\net8.0\Entidades.pdb
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Entidades\obj\Debug\net8.0\ref\Entidades.dll
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Entidades\obj\Debug\net8.0\Entidades.sourcelink.json

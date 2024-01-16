@@ -15,3 +15,4 @@ C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Negocio\obj\Debug\
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Negocio\obj\Debug\net8.0\refint\Negocio.dll
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Negocio\obj\Debug\net8.0\Negocio.pdb
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Negocio\obj\Debug\net8.0\ref\Negocio.dll
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\Negocio\obj\Debug\net8.0\Negocio.sourcelink.json

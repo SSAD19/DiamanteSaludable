@@ -10,3 +10,4 @@ C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\De
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json

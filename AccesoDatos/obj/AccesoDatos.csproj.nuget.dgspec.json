@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.1.2, )"
+              "version": "[5.1.4, )"
             }
           },
           "imports": [
