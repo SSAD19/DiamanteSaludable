@@ -16,7 +16,8 @@ namespace Entidades
         public int UnidadGranel { get; set; } //esto es lo que me va a definir 
 
         // se trae desde ProductosPrecios 
-
+ public double PrecioVenta { get; set; }
+ public string Unidad { get; set; }
     
         
 

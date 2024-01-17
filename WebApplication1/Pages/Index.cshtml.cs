@@ -33,7 +33,8 @@ namespace WebApplication1.Pages
             */
 
             listadoProd = accProd.CargarProdPrecios();
-            Console.WriteLine(listadoProd[1].Producto.Nombre);
+
+            Console.WriteLine(listadoProd[0].Producto.Nombre);
 
         }
 
