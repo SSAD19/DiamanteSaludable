@@ -20,21 +20,21 @@ namespace WebApplication1.Pages
             Inicializar(); 
         }
        
-        public List<Precios> listadoProd { get; private set; }
-        Precios productos = new Precios();
+        public List<Productos> listadoProd { get; private set; }
+        Productos productos = new Productos();
         ProdNegocio accProd = new ProdNegocio();
 
 
-        //este método trae la lista de productos con sus precios ya unificado 
+        //este mï¿½todo trae la lista de productos con sus precios ya unificado 
         private void Inicializar()
         {
             /*string conexString = _config.GetConnectionString("DefaultConnection");
             string conexString = @"Data Source=DESKTOP-P0J7R4I\SQLEXPRESS;Initial Catalog=Diamante; Integrated Security=true;Encrypt=False;";
             */
 
-            listadoProd = accProd.CargarProdPrecios();
+            listadoProd = accProd.RecuperarProductos(listadoProd);
 
-            Console.WriteLine(listadoProd[0].Producto.Nombre);
+            Console.WriteLine(listadoProd[0].Nombre);
 
         }
 
