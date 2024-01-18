@@ -10,7 +10,7 @@ namespace Negocio
     public class ClientNeg
     {
         public List<Clientes> misClientes = new List<Clientes>();
-        private AccesoBase traer = new AccesoBase();
+        private AccesoDB traer = new AccesoDB();
 
         //traer clientes  todos 
         public List<Clientes> RecuperarClientes(string _conexString)
@@ -22,7 +22,7 @@ namespace Negocio
             {
                 using (var conex = new SqlConnection())
                 {
-                    traer = new AccesoBase();
+                    traer = new AccesoDB();
                     var dataT = new DataTable();
                     dataT = traer.TraerDataT(_comando);
                     
@@ -71,7 +71,7 @@ namespace Negocio
 
                 using (var conex = new SqlConnection())
                 {
-                    traer = new AccesoBase();
+                    traer = new AccesoDB();
                     var dataT = new DataTable();
                     dataT = traer.TraerDataT(_comando);
 

@@ -32,7 +32,7 @@ namespace WebApplication1.Pages
             string conexString = @"Data Source=DESKTOP-P0J7R4I\SQLEXPRESS;Initial Catalog=Diamante; Integrated Security=true;Encrypt=False;";
             */
 
-            listadoProd = accProd.RecuperarProductos(listadoProd);
+            listadoProd = accProd.RecuperarProductos();
 
             Console.WriteLine(listadoProd[0].Nombre);
 

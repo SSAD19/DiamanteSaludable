@@ -12,7 +12,7 @@ namespace Negocio
         List<Productos> misProductos = new List<Productos>();
 
         // uno igual por un producto nada mas¿?
-        public List<Productos> RecuperarProductos(ref List<Productos> misProductos)
+        public List<Productos> RecuperarProductos()
         {
 
             //query 

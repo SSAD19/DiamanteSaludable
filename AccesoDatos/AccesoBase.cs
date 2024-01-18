@@ -7,7 +7,7 @@ using Microsoft.Data.SqlClient;
 
 namespace AccesoDatos
 {
-    public class AccesoBase : IDisposable
+    public class AccesoDB: IDisposable
         {
         private string conexString = @"Data Source=DESKTOP-P0J7R4I\SQLEXPRESS;Initial Catalog=Diamante; Integrated Security=true;Encrypt=False;";
         SqlConnection miConex = new SqlConnection();
@@ -104,35 +104,27 @@ namespace AccesoDatos
             return miTabla;
         }
 
-        /*
-            //No lo he probado aún  altas, bajas, modificaciones
-
-            public void HacerTransaccion(string _comando)
+        public void HacerTransaccion(string _query)
+        {
+            try
             {
-                try
+                using (miConex = new SqlConnection(conexString))
                 {
-                    IniciarTransaccion();
-                    using (SqlCommand comando = miConex.CreateCommand())
-                    {
-                        comando.CommandText = _comando;
-                        comando.ExecuteNonQuery();
-                    }
+                    SqlCommand comando = new SqlCommand(_query, miConex);
+                    miConex.Open();
+                    comando.ExecuteNonQuery();
 
-                    CerrarTransaccion();
-                    Console.WriteLine("Operación exitosa");
                 }
-                catch (Exception e)
-                {
-                    miTransaccion?.Rollback();
-                    Console.WriteLine($"Error al iniciar la transacción: {e.Message}");
-                }
-                finally
-                {
-                    Dispose();
-                }
+
+                Console.WriteLine("Operación exitosa");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error al iniciar la transacción: {e.Message}");
             }
         }
-        */
+
+
 
 
     }
