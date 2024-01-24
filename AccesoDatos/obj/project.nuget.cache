@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ZDwX1vO4AV3BsLQJr7oEPXGBtOLgRsZtCJMAULmKCdeUoWVomPk2dW7UXOMU822oUQuPn6QidMXAA/25l07/g==",
+  "dgSpecHash": "Uo0U6iMGzo/dzdTl8dr4zkPdxqkA3sGE33OQaqy5+9+KR0+dqj0lN4LSGduyf27Dj3izMNoE62v2DPrqSRDT0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,15 +1,14 @@
 ﻿using System.Data;
 using System.Data.Common;
+using System.Security.AccessControl;
 using System.Transactions;
 using Microsoft.Data.SqlClient;
-
-
 
 namespace AccesoDatos
 {
     public class AccesoDB: IDisposable
         {
-        private string conexString = @"Data Source=DESKTOP-P0J7R4I\SQLEXPRESS;Initial Catalog=Diamante; Integrated Security=true;Encrypt=False;";
+        private string conexString = @"Data Source=;Initial Catalog=; Integrated Security=true;Encrypt=False;";
         SqlConnection miConex = new SqlConnection();
         public void Dispose()
         {
@@ -31,52 +30,7 @@ namespace AccesoDatos
             miConex.Dispose();
         }
 
-        /*
-         * 
-          SqlConnection miConex;
-          SqlTransaction miTransaccion;
-          SqlCommand miComando; 
-
-          private SqlConnection AbrirConexion()
-          {
-              try
-              {
-                  miConex = new SqlConnection(conexString);
-
-                  if (miConex.State != ConnectionState.Open)
-                  {
-                      miConex.Open();
-                      Console.WriteLine("Conexión exitosa");
-                  }
-              }
-              catch (Exception e)
-              {
-                  Console.WriteLine($"Error al abrir la conexión: {e.Message}");
-              }
-
-              return miConex;
-          }
-
-          public void IniciarTransaccion()
-          {
-              try
-              {
-                  miTransaccion = AbrirConexion().BeginTransaction();
-              }
-              catch (Exception e)
-              {
-                  miTransaccion?.Rollback();
-                  Console.WriteLine($"Error al iniciar la transacción: {e.Message}");
-              }
-          }
-
-          public void CerrarTransaccion()
-          {
-              miTransaccion?.Commit();
-          }
-        */
-
-        // selects para vistas y entidades
+     // selects para vistas y entidades
         public DataTable TraerDataT(string _query)
         {
             var miTabla = new DataTable();
@@ -125,7 +79,25 @@ namespace AccesoDatos
         }
 
 
+        public void ObtenerUno (string _query, object _xEntidad)
+        {
+             try
+            {
+                using (SqlConnection miConex = new SqlConnection(conexString))
+                {
+                    SqlCommand comando = new SqlCommand(_query, miConex);
+                    miConex.Open();
 
+                    _xEntidad = comando.ExecuteScalar(); 
+
+                }
+            }
+            catch (Exception e) {
+
+                Console.WriteLine($"Error: {e.Message}, ruta: {e.StackTrace}");
+            }
+
+        }
 
     }
 }

@@ -11,3 +11,16 @@ C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\De
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
 C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+C:\Users\Dell\Documents\Code\Ferrare_Diamante\WebApplication1\WebApplication1\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll

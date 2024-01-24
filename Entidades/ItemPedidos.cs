@@ -1,10 +1,10 @@
 namespace Entidades
 {
     public class ItemPedidos{
-        int IdItemPedido  { get; set;}
-        Productos ProductoItem { get; set; } // en producto poner precio  unitario¿?
-        double Cantidad { get; set; }
-        double Subtotal { get; set; }
+        public int IdItemPedido  { get; set;}
+        public Productos ProductoItem { get; set; } // en producto poner precio  unitario¿?
+        public double Cantidad { get; set; }
+        public double Subtotal { get; set; }
 
 
         public ItemPedidos(){}

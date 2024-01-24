@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vFYS9RW7FU6Ap18Qk8qIYhUdIQ3T5QiKCfY8d9ST3/erTQ6ViLMi9ec/9xRH13sMhi5y95nnlx594Fuv75O7dw==",
+  "dgSpecHash": "A5wJmISA/ZjcdYcosXFXtapubnVu8vliyWa4fCnRgNjoQLISdN6iU1R+tim9UYKipYAsfaSzaefFKA2XTvgW6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\Negocio\\Negocio.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\Negocio\\Negocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

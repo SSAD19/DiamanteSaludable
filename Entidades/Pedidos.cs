@@ -2,13 +2,13 @@ namespace Entidades
 {
     public class Pedidos
     {
-        int IdPedido { get; set; }
-        Clientes Cliente { get; set; }
-        DateTime FechaPedido { get; set; }
-        double TotalPagar { get; set; }
-        bool delivery { get; set; }
-        bool Descuento { get; set; }
-        double TotalDescuento { get; set; }
+        public int IdPedido { get; set; }
+        public Clientes Cliente { get; set; }
+        public DateTime FechaPedido { get; set; }
+        public double TotalPagar { get; set; }
+        public bool delivery { get; set; }
+        public bool Descuento { get; set; }
+        public double TotalDescuento { get; set; }
 
         public Pedidos(){}
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

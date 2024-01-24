@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj",
+        "projectPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\AccesoDatos\\AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\AccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Documents\\Code\\Ferrare_Diamante\\WebApplication1\\WebApplication1\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

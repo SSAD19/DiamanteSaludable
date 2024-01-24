@@ -72,18 +72,7 @@ namespace Negocio
                 using (var conex = new SqlConnection())
                 {
                     traer = new AccesoDB();
-                    var dataT = new DataTable();
-                    dataT = traer.TraerDataT(_comando);
-
-                    cliente.Codigo = int.Parse(dataT.Rows[0].ToString()!);
-                    cliente.Nombre = dataT.Rows[1].ToString() ?? "sin data";
-                    cliente.Apellido = dataT.Rows[2].ToString() ?? "sin data";
-                    cliente.Wapp = dataT.Rows[3].ToString()!;
-                    cliente.Calle = dataT.Rows[4].ToString() ?? "sin data"; 
-                    cliente.Numero = dataT.Rows[5].ToString() ?? "sin data"; 
-                    cliente.Localidad = dataT.Rows[8].ToString() ?? "sin data"; ;
-                    cliente.Observacion = dataT.Rows[9].ToString() ?? "sin data";
-                    cliente.Correo = dataT.Rows[14].ToString() ?? "sin data";
+                    traer.ObtenerUno(_comando, cliente);  
                 }
             }
 

@@ -15,6 +15,14 @@ namespace Entidades
         public double StockActual { get; set; }
         public int UnidadGranel { get; set; } //esto es lo que me va a definir 
 
+        //falta agregar en base de datos 
+        
+        public string UrlImagen {get; set;}
+        public string Descripcion { get; set;}
+         
+
+
+
         // se trae desde ProductosPrecios 
  public double PrecioVenta { get; set; }
  public string Unidad { get; set; }
